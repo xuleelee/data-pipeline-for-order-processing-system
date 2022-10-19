@@ -16,7 +16,7 @@ Data Preporcessing by Glue DataBrew. AWS Glue DataBrew is a visual data preparat
 ## 1. Create dataset
 ![](/Project_part3_v3/assets/create-dataset.png)
 
-## 2. Create Projects with recipe (step function)
+## 2. Create Projects with recipes (step function)
 ![](/Project_part3_v3/assets/create-projects.png)
 
 ## 3. Create jobs to load in S3 

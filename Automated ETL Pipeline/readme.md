@@ -9,7 +9,7 @@ High levels in this solution are as follows:
 * Schedule AWS Lambda functions using `EventBridge`, which periodically trigger Lambda.
 
 
-### Step 1 Create Lambda function 
+### Step 1 Create AWS Lambda function 
 Lambda function for `Databrew`
 * name: databrew-etl-daily
 * runtime: python 3.8

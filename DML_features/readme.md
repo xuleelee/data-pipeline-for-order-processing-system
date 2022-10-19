@@ -53,18 +53,7 @@ Similar to above, based on table order_products_prior, for each user calculate
 * user reorder ratio (number of reordered = 1 divided by number of order_number > 1)
 
 ```sql
-# snowflake
-SELECT user_id,
-       COUNT(product_id) AS total_num_of_pro,
-       COUNT(DISTINCT product_id) AS total_num_of_distinct_pro,
-       ROUND(COUNT(CASE WHEN REORDERED = 1 THEN 1 END) / 
-             COUNT(CASE WHEN ORDER_NUMBER > 1 THEN 1 END),2) 
-             AS reorder_ratio
-FROM order_products_prior
-GROUP BY user_id
-ORDER BY user_id
-LIMIT 10;
-```
+
 
 ```sql
 # Athena

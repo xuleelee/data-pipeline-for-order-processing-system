@@ -50,7 +50,7 @@ Orders --> Order_products
 
 ![ER Diagram](/Project_part1_v3/er_model_assets/order_products%20-%20orders.png)
 
-# 2. SQL Query from IMBA Data Set
+# 2. SQL Query from  Data Set
 Design a query to join orders table and order_products table together, filter on eval_set = ‘prior’
 ```sql
 SELECT * 

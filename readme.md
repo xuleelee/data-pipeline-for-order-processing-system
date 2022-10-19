@@ -27,7 +27,7 @@ use DataBrew to prepare and clean target data source and then use Step Functions
 Details：see Project_part3_V3
 
 > *About Databrew*
-> * visual data preparation tool 
+> * Visual data preparation tool 
 > * enrich, clean, and normalize data without writing any line of code.
 
 ## Step 4 ETL job in Glue Job
